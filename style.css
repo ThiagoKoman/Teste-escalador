@@ -1,0 +1,103 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+.monthly{
+    width: 100%;
+    max-height: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.monthly tbody{
+    max-height: 40px;
+}
+       
+.monthly th, .monthly td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.monthly thead{
+    transition: 500ms;
+}
+
+.monthly tbody th, .monthly thead th{
+    font-weight: bold;
+    /* background-color: #f2f2f2; */
+}
+
+.monthly th {
+    background-color: #f2f2f2;
+}
+
+.monthly .dayoff{
+    color: rgb(200, 0, 0)
+}
+
+.monthly .extra-hour{
+    color: green
+}
+
+.monthly .journey-alteration{
+    color: rgb(68, 0, 255)
+}
+
+.monthly .can_select{
+    transition: 500ms;
+    cursor: pointer;
+}
+.monthly .can_select:hover{
+    box-shadow:inset 0px 0px 0px 2px #494949;
+    background: rgba(255, 255, 0, 0.073);
+}
+
+.cs_dist_0{
+    background: rgb(188, 244, 252);
+    color: rgb(0, 21, 117)
+}
+.cs_dist_1{
+    background: rgb(196, 255, 205);
+    color:rgb(0, 62, 28); 
+}
+.cs_dist_2{
+    background: rgb(222, 255, 194);
+    color:rgb(37, 71, 0);
+}
+.cs_dist_3{
+    background: rgb(250, 255, 194);
+    color:rgb(81, 88, 0);
+}
+.cs_dist_4{
+    background: rgb(255, 225, 194);
+    color:rgb(119, 48, 0); 
+}
+.cs_dist_5{
+    background: rgb(255, 199, 199);
+    color:rgb(115, 0, 0);
+}
+.cs_dist_6{
+    background: rgb(255, 164, 164);
+    color:rgb(63, 0, 0);
+}
+
+.monthly #toogle-table{
+    cursor: pointer;
+    transition: 500ms
+}
+
+.monthly #toogle-table:hover{
+    cursor: pointer;
+    background: rgb(255, 249, 217)
+}
+
+#thead-spam{
+    height: 0px;
+    width: 100%;
+    transition: 500ms;
+}
